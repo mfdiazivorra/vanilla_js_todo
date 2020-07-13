@@ -8,8 +8,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js">
 </head>
-<body>
-    <h1>Vanilla JS TO-DO App</h1>
+<body class="container">
+    <header class="logo">
+        <a href="http://www.google.com" target="_blank">
+            <img src="images/todologo.png   " alt="TO-DO list logo">
+        </a>
+
+        <h1>Vanilla JS TO-DO App</h1>
+    </header>
+
+    <div class="main">
+        <form>
+            <input type="text" placeholder="New Task...">
+            <button type="submit"><i class="fas fa-plus-square"></i></button>
+        </form>
+
+        <div class="todoList">
+            <ul>
+
+            </ul>
+
+            <a class="clearAll" id="clearAll">Clear All</a>
+        </div>
+        
+    </div>
+
     <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
